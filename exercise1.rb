@@ -25,8 +25,28 @@ graham = direction(trains, "east")
 puts graham
 puts billy
 
-trains[3][:first_departure_time] = 12
-puts trains[3]
+# trains[3][:first_departure_time] = 12
+# puts trains[3]
+#
+# northbound = []
+# eastbound = []
+#
+# trains.each do |train|
+#  if train[:direction] == "north"
+#    northbound.push(train[:train])
+#  elsif train[:direction] == "east"
+#    eastbound.push(train[:train])
+#  end
+# end
+#
+# puts "Trains heading north: #{northbound}"
+# puts "Trains heading east: #{eastbound}"
+#
+# trains[7][:first_departure_time] = 12
+# puts trains
+
+
+
 # train_111 = train_schedule.last[:direction]
 # p train_111
 #
